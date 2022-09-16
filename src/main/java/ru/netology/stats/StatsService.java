@@ -62,7 +62,7 @@ public class StatsService {
         int quantityMonth = 0;
 
         for (int i = 0; i < sales.length; i++) {
-            if (sales[i] < averageMonth) {
+            if (sales[i] > averageMonth) {
                 quantityMonth = quantityMonth + 1;
             }
         }

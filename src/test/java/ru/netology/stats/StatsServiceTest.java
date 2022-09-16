@@ -61,7 +61,7 @@ public class StatsServiceTest {
         StatsService service = new StatsService();
 
         int [] sales = {10, 12, 13, 21, 17, 20, 19, 20, 6, 14, 10, 0};
-        int expected = 5;
+        int expected = 6;
         int actual = service.getAboveAverage(sales);
 
         Assertions.assertEquals(expected, actual);
